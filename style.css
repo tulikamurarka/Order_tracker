@@ -1,0 +1,42 @@
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.order {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.delivered {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.pastOrder {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}

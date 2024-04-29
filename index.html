@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Order Tracker</h1>
+        <form id="orderForm">
+            <input type="text" id="orderName" placeholder="Order Name" required>
+            <button type="submit">Add Order</button>
+        </form>
+        <h2>Pending Orders</h2>
+        <div id="pendingOrdersContainer">
+            <!-- Pending orders will be displayed here -->
+        </div>
+        <h2>Past Orders</h2>
+        <div id="pastOrdersContainer">
+            <!-- Past orders will be displayed here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
